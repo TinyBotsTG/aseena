@@ -1,4 +1,4 @@
-FROM tinybotstg/aseena:latest
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/TinyBotsTG/aseena /root/WhatsAsena
 WORKDIR /root/WhatsAsena/
