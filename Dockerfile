@@ -1,7 +1,7 @@
-FROM fusuf/whatsasena:latest
+FROM TinyBotsTG/aseena:latest
 
-RUN git clone https://github.com/phaticusthiccy/WhatsAsenaDuplicated /root/WhatsAsenaDuplicated
-WORKDIR /root/WhatsAsenaDuplicated/
+RUN git clone https://github.com/TinyBotsTG/aseena /root/WhatsAsena
+WORKDIR /root/WhatsAsena/
 ENV TZ=Europe/Istanbul
 RUN npm install deepai
 RUN npm install supervisor -g
